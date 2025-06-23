@@ -1,0 +1,467 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Fibernerix - Cable & Internet</title>
+  <link rel="stylesheet" href="style.css"/>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+ 
+</head>
+<body>
+
+  <!-- Header -->
+  <header class="header">
+    <div class="logo">Fibernerix</div>
+    <nav class="navbar">
+      <ul>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#services">Services</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Hero Section -->
+ <section class="hero-section" id="home">
+  <div class="hero-content">
+    <div class="hero-text" data-aos="fade-right">
+      <h1>Stay Connected with <span>Fibernerix</span></h1>
+      <p>Lightning-fast internet, unmatched uptime, and flawless streaming — built for homes and businesses that thrive online.</p>
+      <a href="#plans" class="hero-btn">Explore Plans</a>
+    </div>
+    <div class="hero-image" data-aos="fade-left">
+      <img src="https://img.freepik.com/free-vector/internet-speed-concept-illustration_114360-9023.jpg" alt="Internet Hero Graphic">
+    </div>
+  </div>
+  <div id="particles-js"></div>
+</section>
+<link href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css" rel="stylesheet">
+<script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
+<script>
+  AOS.init();
+</script>
+<script>
+  tsParticles.load("particles-js", {
+    fullScreen: { enable: false },
+    background: { color: { value: "transparent" } },
+    fpsLimit: 60,
+    particles: {
+      number: { value: 50, density: { enable: true, area: 800 } },
+      color: { value: ["#ef6c00", "#ffffff"] },
+      shape: { type: "circle" },
+      opacity: {
+        value: 0.7,
+        random: true,
+        anim: { enable: false }
+      },
+      size: {
+        value: 4,
+        random: true,
+        anim: { enable: false }
+      },
+      move: {
+        enable: true,
+        speed: 1.5,
+        direction: "none",
+        outModes: { default: "bounce" }
+      }
+    },
+    interactivity: {
+      events: {
+        onHover: { enable: true, mode: "repulse" },
+        onClick: { enable: true, mode: "push" },
+        resize: true
+      },
+      modes: {
+        repulse: { distance: 100, duration: 0.4 },
+        push: { quantity: 4 }
+      }
+    },
+    detectRetina: true
+  });
+</script>
+
+
+
+<!--About us-->
+ <section class="about-orange" id="about">
+  <div class="about-container">
+    <div class="about-text">
+      <h2>Our Mission</h2>
+      <p>
+        At Fibernerix, our mission is simple — to connect people and communities through ultra-fast, dependable, and secure internet services.
+      </p>
+      <p>
+        Powered by cutting-edge technology and a passion for customer satisfaction, we aim to make seamless digital connectivity available for everyone — from homes to businesses.
+      </p>
+    </div>
+
+    <div class="about-stats">
+      <div class="stat-box-orange">
+        <h3>2.5M+</h3>
+        <p>Subscribers Nationwide</p>
+      </div>
+      <div class="stat-box-orange">
+        <h3>99.99%</h3>
+        <p>Network Uptime</p>
+      </div>
+      <div class="stat-box-orange">
+        <h3>24/7</h3>
+        <p>Customer Support</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<!-- Services Section -->
+<section class="key-services" id="services">
+  <div class="services-container">
+    <h2>OUR SERVICES</h2>
+    <p class="services-subtitle">Everything you need to stay connected and entertained</p>
+    <div class="services-grid">
+      
+      <div class="service-box" data-aos="fade-up">
+        <i class="fas fa-wifi"></i>
+        <h3>High-Speed Internet</h3>
+        <p>Blazing fast fiber and broadband options for home and business. No buffering, no limits.</p>
+      </div>
+      
+      <div class="service-box" data-aos="fade-up" data-aos-delay="100">
+        <i class="fas fa-phone-alt"></i>
+        <h3>Digital Phone</h3>
+        <p>Reliable voice service with unlimited nationwide and international calling options.</p>
+      </div>
+      
+      <div class="service-box" data-aos="fade-up" data-aos-delay="200">
+        <i class="fas fa-layer-group"></i>
+        <h3>Bundles</h3>
+        <p>Combine TV, phone, and internet into one powerful and cost-effective package.</p>
+      </div>
+      
+      <div class="service-box" data-aos="fade-up" data-aos-delay="300">
+        <i class="fas fa-tv"></i>
+        <h3>Streaming Access</h3>
+        <p>Enjoy your favorite shows and movies in HD and 4K with lightning-fast streaming support.</p>
+      </div>
+      
+    </div>
+  </div>
+</section>
+<!-- Explore Our Deals Section -->
+<!-- Explore Our Deals Section -->
+<section id="explore-deals" class="explore-deals">
+  <div class="deals-wrapper">
+    <h2 class="deals-title">Explore Our Best Deals</h2>
+    <p class="deals-subtitle">Get unbeatable offers on Internet, Phone, and Streaming bundles. Save more while staying connected with Fibernerix.</p>
+
+    <div class="deals-grid">
+      <div class="deal-card" data-aos="fade-up" data-aos-delay="0">
+        <h3>Starter Internet</h3>
+        <p class="price">$29.99/mo</p>
+        <ul>
+          <li>Up to 200 Mbps</li>
+          <li>No data caps</li>
+          <li>24/7 Tech Support</li>
+        </ul>
+        <a href="#contact" class="deal-btn">Get Started</a>
+      </div>
+
+      <div class="deal-card" data-aos="fade-up" data-aos-delay="100">
+        <h3>Streaming Combo</h3>
+        <p class="price">$49.99/mo</p>
+        <ul>
+          <li>Internet + 50+ Channels</li>
+          <li>Free Streaming Device</li>
+          <li>3 Months Free Trial</li>
+        </ul>
+        <a href="#contact" class="deal-btn">Choose Plan</a>
+      </div>
+
+      <div class="deal-card" data-aos="fade-up" data-aos-delay="200">
+        <h3>Ultimate Bundle</h3>
+        <p class="price">$79.99/mo</p>
+        <ul>
+          <li>1 Gbps Internet</li>
+          <li>Phone + Streaming</li>
+          <li>Free Installation</li>
+        </ul>
+        <a href="#contact" class="deal-btn">Join Now</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Featured Highlights Section -->
+<section id="highlights" class="highlights-section">
+  <div class="highlights-wrapper">
+    <h2 class="highlights-title">Why Fibernerix?</h2>
+    <div class="highlight-cards">
+      <div class="highlight-card" data-aos="fade-right">
+        <img src="https://img.icons8.com/external-flatart-icons-outline-flatarticons/64/000000/network.png" alt="Speed Icon">
+        <h4>Blazing Fast Internet</h4>
+        <p>Experience unmatched speed and zero lag with our fiber-optic network.</p>
+      </div>
+      <div class="highlight-card" data-aos="fade-up">
+        <img src="https://img.icons8.com/ios/50/000000/customer-support--v1.png" alt="Support Icon">
+        <h4>24/7 Support</h4>
+        <p>Our expert tech team is available round the clock to assist you instantly.</p>
+      </div>
+      <div class="highlight-card" data-aos="fade-left">
+        <img src="https://img.icons8.com/ios-filled/50/000000/money.png" alt="Money Icon">
+        <h4>Affordable Plans</h4>
+        <p>Enjoy premium service at unbeatable prices with our value-packed deals.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Testimonials Section -->
+<section id="testimonials" class="testimonials-section">
+  <div class="testimonials-wrapper">
+    <h2 class="section-title">What Our Customers Say</h2>
+    <div class="testimonial-cards">
+      <div class="testimonial-card" data-aos="fade-up">
+        <p class="quote">“Fibernerix transformed our home office setup. Ultra-fast, super reliable!”</p>
+        <h4>- Sarah L., Chicago</h4>
+      </div>
+      <div class="testimonial-card" data-aos="fade-up" data-aos-delay="100">
+        <p class="quote">“Their support team is simply the best. Quick, helpful, and always polite.”</p>
+        <h4>- Mark T., Austin</h4>
+      </div>
+      <div class="testimonial-card" data-aos="fade-up" data-aos-delay="200">
+        <p class="quote">“Affordable bundles that actually deliver. Fibernerix is a game-changer.”</p>
+        <h4>- Priya S., San Jose</h4>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Call To Action Section -->
+<section id="cta" class="cta-section">
+  <div class="cta-wrapper">
+    <h2>Ready to experience the future of connectivity?</h2>
+    <p>Get in touch with Fibernerix today and choose a plan that suits your digital lifestyle.</p>
+    <a href="#contact" class="deal-btn">Contact Us</a>
+  </div>
+</section>
+
+<!-- CSS styles (existing styles kept intact and new styles added below) -->
+<style>
+  .testimonials-section {
+    background: #fff;
+    padding: 80px 20px;
+    text-align: center;
+  }
+  .testimonials-wrapper {
+    max-width: 1000px;
+    margin: auto;
+  }
+  .testimonial-cards {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    justify-content: center;
+  }
+  .testimonial-card {
+    background: #fff3e0;
+    padding: 30px;
+    border-radius: 12px;
+    width: 280px;
+    box-shadow: 0 10px 15px rgba(0,0,0,0.05);
+  }
+  .testimonial-card .quote {
+    font-style: italic;
+    color: #333;
+    margin-bottom: 10px;
+  }
+  .testimonial-card h4 {
+    color: #ef6c00;
+    margin-top: 0;
+  }
+
+  .cta-section {
+    background: #ef6c00;
+    color: white;
+    padding: 60px 20px;
+    text-align: center;
+  }
+  .cta-wrapper h2 {
+    font-size: 2rem;
+    margin-bottom: 10px;
+  }
+  .cta-wrapper p {
+    margin-bottom: 20px;
+    font-size: 1rem;
+  }
+</style>
+
+<!-- AOS Script -->
+<script src="https://cdn.jsdelivr.net/npm/aos@2.3.1/dist/aos.js"></script>
+<link href="https://cdn.jsdelivr.net/npm/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+<script>
+  AOS.init();
+</script>
+
+<!--Disclaimer-->
+<section class="disclaimer-section" id="disclaimer">
+  <div class="disclaimer-container">
+    <h2>Disclaimer</h2>
+    <p>
+      The information provided on this website is for general informational purposes only. 
+      Fibernerix makes no representations or warranties of any kind, express or implied, 
+      about the completeness, accuracy, reliability, suitability, or availability of the 
+      information, products, or services contained on this website.
+    </p>
+    <p>
+      Any reliance you place on such information is therefore strictly at your own risk.
+    </p>
+  </div>
+</section>
+
+<!--FAQ-->
+<section class="faq-section" id="faq">
+  <div class="faq-container">
+    <h2 class="faq-title">Frequently Asked Questions</h2>
+
+    <div class="faq-item">
+      <button class="faq-question">What services does Fibernerix offer?<span class="icon">+</span></button>
+      <div class="faq-answer">
+        <p>Fibernerix provides high-speed internet, cellular plans, bundled packages, and streaming services. We partner with top-tier providers to give you the best connectivity options.</p>
+      </div>
+    </div>
+
+    <div class="faq-item">
+      <button class="faq-question">What companies are serviceable through Fibernerix and JNA?<span class="icon">+</span></button>
+      <div class="faq-answer">
+        <p>We provide services from AT&T, Verizon, Spectrum, Xfinity, Frontier, HughesNet, CenturyLink, Paramount+, SHOWTIME®, and many others through our certified JNA dealership.</p>
+      </div>
+    </div>
+
+    <div class="faq-item">
+      <button class="faq-question">Is Fibernerix a service provider?<span class="icon">+</span></button>
+      <div class="faq-answer">
+        <p>No, Fibernerix is an authorized retailer that connects you to leading internet and TV providers. We ensure top-quality service and smooth onboarding.</p>
+      </div>
+    </div>
+
+    <div class="faq-item">
+      <button class="faq-question">What are Fibernerix’s execution charges?<span class="icon">+</span></button>
+      <div class="faq-answer">
+        <p>Our execution charges range from $49.99 to $199.99 for tasks like plan upgrades, bill payments, new connections, and cancellations — separate from provider bills.</p>
+      </div>
+    </div>
+
+    <div class="faq-item">
+      <button class="faq-question">Why are execution charges separate from my provider’s billing?<span class="icon">+</span></button>
+      <div class="faq-answer">
+        <p>Fibernerix handles your service requests independently. Execution charges cover the work we do on your behalf, separate from provider charges for service usage.</p>
+      </div>
+    </div>
+
+    <div class="faq-item">
+      <button class="faq-question">How do I contact Fibernerix for support?<span class="icon">+</span></button>
+      <div class="faq-answer">
+        <p>Use our contact form or call the numbers provided at the bottom of the site. Our support team is available to assist you 24/7 with any issues or questions.</p>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+<script>
+  const faqItems = document.querySelectorAll(".faq-item");
+
+  faqItems.forEach((item) => {
+    const question = item.querySelector(".faq-question");
+    const answer = item.querySelector(".faq-answer");
+    const icon = question.querySelector(".icon");
+
+    question.addEventListener("click", () => {
+      const isOpen = answer.classList.contains("open");
+
+      // Close all
+      document.querySelectorAll(".faq-answer").forEach((el) => {
+        el.classList.remove("open");
+      });
+      document.querySelectorAll(".faq-question .icon").forEach((i) => {
+        i.textContent = "+";
+      });
+
+      // Toggle current
+      if (!isOpen) {
+        answer.classList.add("open");
+        icon.textContent = "−";
+      } else {
+        answer.classList.remove("open");
+        icon.textContent = "+";
+      }
+    });
+  });
+</script>
+
+<!--contact us-->
+<section class="contact-section-light" id="contact">
+  <div class="contact-container-light">
+    <h2 class="section-title-light">Contact Us</h2>
+    <div class="contact-content-light">
+      <div class="contact-form-light">
+        <h4>Drop us a line!</h4>
+        <form>
+          <input type="text" placeholder="Name" required>
+          <input type="email" placeholder="Email*" required>
+          <textarea placeholder="Message" required></textarea>
+          <button type="submit">Send</button>
+        </form>
+      </div>
+      <div class="contact-info-light">
+        <h4>Questions & Comments</h4>
+        <p>
+          We understand that our customers have unique needs. Send us a message, and we’ll get back to you soon—or give us a call. We’re available around the clock.
+        </p>
+        <p><strong>Fibernetrix Support</strong></p>
+        <p>(866) 882-0525</p>
+      </div>
+    </div>
+  </div>
+</section>
+</body>
+<footer class="footer-light">
+  <div class="footer-container">
+    <div class="footer-column">
+      <div class="logo-text">
+        <h4>FIBERNETRIX</h4>
+      </div>
+      <p>Fibernerix is a certified JNA dealer connecting homes and businesses with high-speed internet, phone, and streaming solutions from top providers. We make connectivity fast, secure, and seamless.</p>
+      <p>We help you find the best plans and ensure smooth setup, so you stay connected hassle-free.</p>
+    </div>
+
+    <div class="footer-column">
+      <h4>Contact</h4>
+      <p>Phone: <a href="tel:+18663870525">+1 (866) 387-0525</a></p>
+    </div>
+
+    <div class="footer-column">
+      <h4>Why Us</h4>
+      <p>Ultra-fast connectivity, zero data limits, and reliable service across all regions — tailored for homes and businesses.</p>
+    </div>
+  </div>
+
+  <hr />
+
+  <div class="footer-bottom">
+    <p>© Copyright 2025 Fibernerix. All rights reserved.</p>
+    <div class="footer-links">
+      <a href="#faq">F.A.Q</a>
+      <a href="#about">About</a>
+      <a href="#services">Services</a>
+      <a href="privacy.html">Privacy Policy</a>
+      <a href="refund.html">Refund Policy</a>
+      <a href="terms.html">Terms & Conditions</a>
+    </div>
+  </div>
+</footer>
+
+</html>
